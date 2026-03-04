@@ -6,3 +6,12 @@ of this software and associated documentation files...
 
 # lfsr-generator
 A parameterized Linear Feedback Shift Register (LFSR) implemented in SystemVerilog.
+The design supports register sizes from **2–8 bits** and includes configurable loading of both the initial seed and tap pattern.
+
+This project demonstrates:
+- Parameterized RTL design
+- Bit-level state machines
+- Deterministic pseudo-random sequence generation
+- Hardware verification using a SystemVerilog testbench
+
+---
